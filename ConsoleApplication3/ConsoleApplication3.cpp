@@ -1,10 +1,7 @@
 #include <iostream>
 using namespace std;
-int main() {
-    int temp1;
-    int temp2;
-    int temp3;
-    int difference;
+int main(){
+    int temp1,temp2,temp3,difference;// declaring variables
 
     // Input first temperature
     cout << "Enter the first temperature reading: ";
@@ -38,4 +35,5 @@ int main() {
     }
     return 0;
 }
+
 
