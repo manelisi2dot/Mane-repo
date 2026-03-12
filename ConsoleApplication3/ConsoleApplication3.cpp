@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     int temp1;
     int temp2;
@@ -19,10 +18,10 @@ int main() {
     difference = temp2 - temp1;
 
     // Check temperature increase conditions
-    if (difference > 50) {
+    if (difference > 50){
         cout << "Reduce fryer heat before taking the third reading" << endl;
     }
-    else if (difference < 10) {
+    else if (difference < 10){
         cout << "Increase the fryer heat before taking the third temperature reading" << endl;
     }
 
@@ -31,12 +30,12 @@ int main() {
     cin >> temp3;
 
     // Check if oil is ready
-    if (temp3 >= 150 && temp3 <= 190) {
+    if (temp3 >= 150 && temp3 <= 190){
         cout << "You may start frying the Magwinyas." << endl;
     }
     else {
         cout << "Oil is not ready for frying" << endl;
     }
-
     return 0;
 }
+
